@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(90deg ,white,rgb(206, 205, 205));
+}
+
+.stopwatch{
+    background-color: rgba(77, 77, 77, 0.404);
+    width: 40%;
+    min-width: 500px;
+    max-width: 700px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    border-radius: 60px;
+}
+
+.time{
+    font-size: 70px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 130px;
+    height: 130px;
+    margin: 0px 20px 20px 20px;
+}
+.laps{
+    font-size: 30px;
+    list-style: none;
+}
